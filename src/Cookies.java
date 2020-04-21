@@ -45,6 +45,7 @@ class TestCookies {
 
 	public static void main(String[] args) {
 		int loop = 1;
+		@SuppressWarnings("resource")
 		Scanner input=new Scanner(System.in);
 		Cookies tanya= new Cookies();
 		
